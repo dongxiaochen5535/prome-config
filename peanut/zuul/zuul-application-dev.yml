@@ -4,7 +4,7 @@ spring:
     name: dev
     url: jdbc:mysql://192.168.21.110:3306/prome_cloud?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8&useSSL=false
     username: root
-    password: e1qaz@2wsx
+    password: 1qaz@2wsx
 #    username: root
 #    password:
     driver-class-name:  com.mysql.jdbc.Driver
