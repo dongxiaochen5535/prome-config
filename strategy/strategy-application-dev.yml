@@ -29,39 +29,7 @@ spring:
       primary: strategy #设置默认的数据源或者数据源组,默认值即为master,如果你主从默认下主库的名称就是master可不定义此项。
       datasource:
         strategy:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/xhh_strategy_new?useSSL=false&zeroDateTimeBehavior=convertToNull
+          username: root
+          password: 1qaz@2wsx
+          url: jdbc:mysql://192.168.21.110:3306/prome_cloud?useSSL=false&zeroDateTimeBehavior=convertToNull
           driver-class-name: com.mysql.jdbc.Driver
-        yiyiyuan:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/xhh_test?useSSL=false&zeroDateTimeBehavior=convertToNull
-        xhhOpen:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/xhh_open?useSSL=false&zeroDateTimeBehavior=convertToNull
-        xhhAntifraud:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/xhh_antifraud?useSSL=false&zeroDateTimeBehavior=convertToNull
-        analysisRepertory:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/analysis_repertory_tidb?useSSL=false&zeroDateTimeBehavior=convertToNull
-        xhhCloud:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/xhh_cloudnew?useSSL=false&zeroDateTimeBehavior=convertToNull
-        youxin:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/yx_test?useSSL=false&zeroDateTimeBehavior=convertToNull
-        hksugou:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/loan_shop_sugou?useSSL=false&zeroDateTimeBehavior=convertToNull
-        kysyigou:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/loan_shop_yigou?useSSL=false&zeroDateTimeBehavior=convertToNull
