@@ -9,3 +9,16 @@ external-risk:
   shenyueFileUrl : /ofiles/openapi/shenyue/
   tencentAntiFraud : AntiFraud
   tencentGz : gz
+  
+tongdun:
+  partner:
+      code: xianhuahua_in
+      key: 65e9d107884e4800927389e8a6e13e6d
+  app:
+    name: test_and
+  biz:
+    code:
+      register: dqshand
+      loan: zcshand
+  gjxd:
+    url: https://apitest.tongdun.net/aurora/apply/v1
