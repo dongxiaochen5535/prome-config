@@ -1,8 +1,6 @@
-#开发环境业务配置
-
 logging:
   level:
-    com.xhh.baidu: debug
+    com.yaoyuefu.peanut: INFO
   config: classpath:logback/logback-dev.xml
 
 spring:
@@ -11,10 +9,10 @@ spring:
   datasource:
     dynamic:
       druid: # 2.2.3开始提供全局druid参数，以下是默认值和druid原生保持一致
-        initial-size: 0
-        max-active: 8
-        min-idle: 2
-        max-wait: -1
+        initial-size: 20
+        max-active: 50
+        min-idle: 30
+        max-wait: 60000
         min-evictable-idle-time-millis: 30000
         max-evictable-idle-time-millis: 30000
         time-between-eviction-runs-millis: 0
