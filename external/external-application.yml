@@ -7,7 +7,7 @@ mybatis-plus:
   #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
   global-config.id-type: 0
   #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
-  global-config.field-strategy: 0
+  global-config.field-strategy: 1
   #驼峰下划线转换
   global-config.db-column-underline: true
   #mp2.3+ 全局表前缀 mp_
@@ -24,9 +24,9 @@ mybatis-plus:
   global-config.sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
   #自定义填充策略接口实现
   #global-config.meta-object-handler: com.baomidou.springboot.MyMetaObjectHandler
-  configuration:
-    #配置返回数据库(column下划线命名&&返回java实体是驼峰命名)，自动匹配无需as（没开启这个，SQL需要写as： select user_id as userId）
-    map-underscore-to-camel-case: true
-    cache-enabled: false
-    #配置JdbcTypeForNull, oracle数据库必须配置
-    jdbc-type-for-null: 'null'
+
+  #配置返回数据库(column下划线命名&&返回java实体是驼峰命名)，自动匹配无需as（没开启这个，SQL需要写as： select user_id as userId）
+  configuration.map-underscore-to-camel-case: true
+  configuration.cache-enabled: false
+  #配置JdbcTypeForNull, oracle数据库必须配置
+  configuration.jdbc-type-for-null: 'null'
