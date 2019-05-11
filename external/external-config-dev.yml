@@ -18,7 +18,7 @@ tongdun:
     name: test_and
   biz:
     code:
-      register: dqshand
-      loan: zcshand
+      register: zcshand
+      loan: dqshand
   gjxd:
     url: https://apitest.tongdun.net/aurora/apply/v1
