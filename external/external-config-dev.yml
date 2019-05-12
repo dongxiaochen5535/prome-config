@@ -11,14 +11,21 @@ external-risk:
   tencentGz : gz
   
 tongdun:
-  partner:
-      code: xianhuahua_in
-      key: 65e9d107884e4800927389e8a6e13e6d
-  app:
-    name: test_and
-  biz:
-    code:
-      register: zcshand
-      loan: dqshand
-  gjxd:
-    url: https://apitest.tongdun.net/aurora/apply/v1
+  portrait:
+    partnerCode: xianhuahua_in_test
+    partnerkey: 082951756ea44e029c6302605d2b2ae7
+    taskUrl: https://talosapi.shujumohe.com/octopus/task.unify.create/v3
+    uploadUrl: https://talosapi.shujumohe.com/octopus/ai.task.upload/v3
+    queryUrl: https://talosapi.shujumohe.com/octopus/task.unify.query/v3
+    channelType: AI
+    channelCode: 108003
+    appName: test_and
+  loan:
+    partnerCode: xianhuahua_in
+    partnerKey: 65e9d107884e4800927389e8a6e13e6d
+    appName: test_and
+    bizCode:
+        register: zcshand
+        loan: dqshand
+    gjxdUrl: https://apitest.tongdun.net/aurora/apply/v1
+ 
