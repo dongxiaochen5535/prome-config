@@ -13,7 +13,7 @@ external-risk:
 tongdun:
   portrait:
     partnerCode: xianhuahua_in_test
-    partnerkey: 082951756ea44e029c6302605d2b2ae7
+    partnerKey: 082951756ea44e029c6302605d2b2ae7
     taskUrl: https://talosapi.shujumohe.com/octopus/task.unify.create/v3
     uploadUrl: https://talosapi.shujumohe.com/octopus/ai.task.upload/v3
     queryUrl: https://talosapi.shujumohe.com/octopus/task.unify.query/v3
@@ -28,4 +28,7 @@ tongdun:
         register: zcshand
         loan: dqshand
     gjxdUrl: https://apitest.tongdun.net/aurora/apply/v1
+ocash:
+  portrait:
+    callbackUrl:
  
