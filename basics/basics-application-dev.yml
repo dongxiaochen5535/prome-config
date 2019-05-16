@@ -33,5 +33,5 @@ spring:
       datasource:
         xhhOpen:
           username: root
-          password: root
+          password: vabesrb2oy
           url: jdbc:mysql://localhost:3306/xhh_open?useSSL=false&zeroDateTimeBehavior=convertToNull
