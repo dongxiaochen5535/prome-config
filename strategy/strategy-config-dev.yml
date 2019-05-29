@@ -29,7 +29,7 @@ cloudplatform:
   baidulbsUrl : /strategy/cloud/new-baidulbs
 
 strategyone:
-  address: http://47.95.140.218:8080
+  address: http://13.233.123.192:8092
   path: /strategyone/S1Public?wsdl
 
 tasktime:
