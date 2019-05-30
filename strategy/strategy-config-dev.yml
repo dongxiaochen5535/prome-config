@@ -29,8 +29,8 @@ cloudplatform:
   baidulbsUrl : /strategy/cloud/new-baidulbs
 
 strategyone:
-  address: http://13.233.123.192:8092
-  path: /strategyone/S1Public?wsdl
+  address: http://13.233.123.192:8093
+  path: /strategyone/ws/S1Public?wsdl
 
 tasktime:
   creditRatingTime: 0 */2 * * * ?
