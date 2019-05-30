@@ -15,7 +15,7 @@ logging:
 
 spring:
   datasource:
-    name: prod
+    name: dev
     url: jdbc:mysql://localhost:3306/prome_cloud?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8&useSSL=false
     username: root
     password: root
