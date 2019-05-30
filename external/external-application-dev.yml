@@ -30,6 +30,6 @@ spring:
       datasource:
         external:
           username: root
-          password: root
-          url: jdbc:mysql://localhost:3306/prome_cloud?useSSL=true&zeroDateTimeBehavior=convertToNull
+          password: '#ZEIk9sXaDV9YFkw'
+          url: jdbc:mysql://mysql:3306/prome_cloud?useSSL=true&zeroDateTimeBehavior=convertToNull
           driver-class-name: com.mysql.jdbc.Driver
