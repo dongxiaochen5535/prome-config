@@ -12,22 +12,22 @@ external-risk:
   
 tongdun:
   portrait:
-    partnerCode: xianhuahua_in_test
-    partnerKey: 082951756ea44e029c6302605d2b2ae7
+    partnerCode: xianhuahua_in
+    partnerKey: 24314fbcd4ce49f3a8b215d065d4fc43
     taskUrl: https://talosapi.shujumohe.com/octopus/task.unify.create/v3
     uploadUrl: https://talosapi.shujumohe.com/octopus/ai.task.upload/v3
     queryUrl: https://talosapi.shujumohe.com/octopus/task.unify.query/v3
     channelType: AI
     channelCode: 108003
-    appName: test_and
+    appName: ocash_and
   loan:
     partnerCode: xianhuahua_in
-    partnerKey: 65e9d107884e4800927389e8a6e13e6d
-    appName: test_and
+    partnerKey: 24314fbcd4ce49f3a8b215d065d4fc43
+    appName: ocash_and
     bizCode:
         register: zcshand
         loan: dqshand
-    gjxdUrl: https://apitest.tongdun.net/aurora/apply/v1
+    gjxdUrl: https://api.tongdun.net/aurora/apply/v1
 ocash:
   portrait:
     callbackUrl:
