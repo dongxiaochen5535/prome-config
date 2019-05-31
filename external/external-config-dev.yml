@@ -28,7 +28,4 @@ tongdun:
         register: zcsj
         loan: dqshand
     gjxdUrl: https://api.tongdun.net/aurora/apply/v1
-ocash:
-  portrait:
-    callbackUrl:
  
