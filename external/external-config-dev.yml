@@ -25,7 +25,7 @@ tongdun:
     partnerKey: 24314fbcd4ce49f3a8b215d065d4fc43
     appName: ocash_and
     bizCode:
-        register: zcsj
+        register: zcsjand
         loan: dqshand
     gjxdUrl: https://api.tongdun.net/aurora/apply/v1
  
