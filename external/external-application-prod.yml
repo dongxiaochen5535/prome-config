@@ -31,5 +31,5 @@ spring:
         external:
           username: root
           password: '#ZEIk9sXaDV9YFkw'
-          url: jdbc:mysql://mysql:3306/prome_cloud?useSSL=true&zeroDateTimeBehavior=convertToNull
+          url: jdbc:mysql://mysql:3306/prome_cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=true&zeroDateTimeBehavior=convertToNull
           driver-class-name: com.mysql.jdbc.Driver
